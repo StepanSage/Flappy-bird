@@ -32,6 +32,9 @@ namespace Scripts.GameLogica
 
         void Update()
         {
+            if(Pause.IsPause) 
+                return;
+
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 if (transform.localPosition.y >= _maxDIstansFlay)

@@ -12,7 +12,8 @@ namespace Scripts.GameLogica
         [SerializeField] private GameObject[] _columns;
         [SerializeField] private Enemy _platform;
         [SerializeField] private GameObject _currsor;
-
+        [SerializeField] private GameObject _record;
+        [SerializeField] private GameObject _audio;
         private void Start() => _playerControler = ServiceLocator._currentService.GetSerice<PlayerControler>();
    
         void Update()
@@ -20,10 +21,11 @@ namespace Scripts.GameLogica
             if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 _playerControler.enabled = true;
+                _audio.SetActive(true);
                 _playerControler.Move();
                 _rb.gravityScale = 2f;
                 _platform.enabled = true;
-
+                _record.SetActive(false);
                 for (int i = 0; i < _columns.Length; i++)
                 {
                     _columns[i].SetActive(true);

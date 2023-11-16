@@ -69,16 +69,18 @@
     <Compile Include="Assets\YandexGame\DebuggingMode\Scripts\DebuggingModeYG.cs" />
     <Compile Include="Assets\Scripts\LogicaGame\LoseGame.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\Payments\PaymentsCatalogYG.cs" />
+    <Compile Include="Assets\Scripts\LogicaGame\Restart.cs" />
     <Compile Include="Assets\YandexGame\Example\Scripts\GetPlayerData.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\ViewingAdsYG.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\YandexMetrica\YandexMetrica.cs" />
+    <Compile Include="Assets\Scripts\Services\Records.cs" />
     <Compile Include="Assets\Scripts\Services\EntryPoint.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\ReviewYG.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\InfoYG\InfoYG.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\Language Translation\LangYGAdditionalText.cs" />
     <Compile Include="Assets\YandexGame\Example\Scripts\ReceivingPurchaseExample.cs" />
-    <Compile Include="Assets\YandexGame\ScriptsYG\Payments\PurchaseYG.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\Leaderboard\UtilsLB.cs" />
+    <Compile Include="Assets\YandexGame\ScriptsYG\Payments\PurchaseYG.cs" />
     <Compile Include="Assets\Scripts\LogicaGame\PlayerControler.cs" />
     <Compile Include="Assets\Scripts\Services\IServices.cs" />
     <Compile Include="Assets\YandexGame\Example\Scripts\LanguageExample.cs" />
@@ -99,6 +101,7 @@
     <Compile Include="Assets\YandexGame\ScriptsYG\GraphicSettingsYG.cs" />
     <Compile Include="Assets\Scripts\LogicaGame\PlayerAnimation.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\Leaderboard\LeaderboardYG.cs" />
+    <Compile Include="Assets\Scripts\LogicaGame\Pause.cs" />
     <Compile Include="Assets\Scripts\LogicaGame\Score.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\GetPlayerYG.cs" />
     <Compile Include="Assets\YandexGame\ScriptsYG\Inside\CallingAnEvent.cs" />
@@ -109,6 +112,7 @@
     <Compile Include="Assets\YandexGame\ScriptsYG\CustomRBT\BannerYG.cs" />
     <Compile Include="Assets\Scripts\Services\RegisterList.cs" />
     <Compile Include="Assets\Scripts\LogicaGame\Spawn.cs" />
+    <Compile Include="Assets\Scripts\Services\Save.cs" />
     <Compile Include="Assets\YandexGame\Example\Scripts\DebugViewing.cs" />
   </ItemGroup>
   <ItemGroup>
